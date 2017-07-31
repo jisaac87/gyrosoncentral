@@ -1,0 +1,303 @@
+*:before,:after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/*--- header ---*/
+
+
+w100{
+    width: 100%;
+}
+
+.mn-link{
+    display: block;
+    max-width: 1527px;
+    width: 100%;
+    margin: 0px;
+    /*background: url("../images/main2.jpg");*/
+}
+
+.main-background{
+    width:100%;
+    object-fit: cover;
+    position: relative;
+    bottom: 115px;
+    z-index: -1;
+}
+
+.mn-link .sc-body{
+    display: block;
+    padding-top: 42px;
+    margin: 0;
+    padding-bottom: 42px;
+    text-align: center;
+}
+
+.links{
+    display: block;
+    width: 100%;
+}
+
+.links li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 32px;
+    position: relative;
+    left: 121px;
+}
+
+.section{
+    text-decoration: none;
+    font-family: 'roboto',sans-serif;
+    font-size: 26px;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+
+    
+}
+
+.section:hover{
+    color: #361e12;
+    text-decoration: none;
+    transition-delay: .02s;
+    font-weight: 900;
+    text-shadow: 1px 1px #c84d00;
+}
+
+.bd-link{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position:relative;
+    bottom: 303px;
+}
+
+.in-link {
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    font-size: 23px;
+    background-color:#ff8346;
+    color: black;
+    vertical-align: bottom;
+    height: 68px;
+    border: none;
+    border-radius: 48px 48px;
+    padding: 0 43px;
+}
+
+
+.in-link a{
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 23px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+
+}
+
+/*---Main-section---*/
+
+.menu{
+    display: block;
+    max-width: 1524px;
+
+}
+
+.main {
+    display: block;
+    max-width: 1527px;
+    width: 100%;
+}
+
+
+.left{
+    display: inline-block;
+    width: 689px;
+    margin-top: 131px;
+    margin-left: 113px;
+    vertical-align: top;
+}
+
+
+.right1{
+    display: inline-block;
+    max-width:712px;
+    width: 100%;
+
+}
+
+.content{
+    display: inline-block;
+    max-width: 698px;
+    vertical-align: top;
+    padding-left: 15px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.items{
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 200px;
+}
+
+.title {
+    display: block;
+    font-size: 54px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2.2px;
+    margin-bottom: 26px;
+    color: #d15a4b;
+    text-shadow: 2px 2px black;
+    position: relative;
+    right: 39px;
+}
+
+.names {
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: 2.2px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 900;
+    width: 190px;
+    color: #e8b816;
+    text-shadow: 1px 1px black;
+}
+
+.list{
+    display: block;
+    list-style: none;
+    font-size: 12px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    margin-top: 18px;
+    color: #c5594d;
+    text-shadow: 0.5px 0.5px black;
+
+}
+
+.hide{
+    display: none;
+}
+
+.hide:hover {
+    display: block;
+    font-size: 20px;
+
+}
+
+.b-main{
+    display: block;
+    max-width: 1000px;
+    width: 100%;
+    background: yellow;
+}
+
+/* attempt 2 in making a slide with js---*/
+
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.slide{
+    position: absolute;
+    left: -36px;
+    top: 0px;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+    color: #c84d00;
+    max-width: 900px;
+    width: 100%;
+}
+
+.slide img{
+    max-width: 663px;
+    height: 516px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slide :nth-of-type(1){
+    background-image: url(../images/appt1.jpg);
+
+}
+
+.slide :nth-of-type(2){
+   background-image: url(/images/gyrofries2.jpg); 
+}
+
+.slide :nth-of-type(3){
+    background-image: url(/images/gyrosalad2.jpg);
+}
+
+.slide :nth-of-type(4){
+    background-image: url(/images/chicknp2.jpg);   
+}
+
+.slide :nth-of-type(5){
+    background-image: url(/images/chickenplate.jpg);
+}
+
+.slide :nth-of-type(6){
+    background-image: url(/images/chickenpita5.jpg);
+}
+
+.slide :nth-of-type(7){
+    background-image: url(/images/burger1.jpg);
+}
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+/*--- new menu section test ---*/
+
+.mst-pop{
+    display: inline-block;
+    background: red;
+    border-radius: 50px;
+    height: 100px;
+    left: 150px;
+    position: absolute;
+    top: 100px;
+    transition: width 200ms, height 200ms, border-radius 200ms,left 200ms, top 200ms;
+}
+
+.mst-pop:hover{
+    border-radius: 100px;
+    height: 200px;
+    left: 100px;
+    width: 200px;
+}   
+
+
+
+@keyframes example{
+    from{background-color:#7e5757;}
+    to {background-color:#d45a4b;}
+}
+
