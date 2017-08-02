@@ -18,6 +18,7 @@ w100{
     max-width: 1527px;
     width: 100%;
     margin: 0px;
+    height: 1000px;
     /*background: url("../images/main2.jpg");*/
 }
 
@@ -123,7 +124,7 @@ w100{
 .left{
     display: inline-block;
     width: 689px;
-    margin-top: 131px;
+    margin-top: 40px;
     margin-left: 113px;
     vertical-align: top;
 }
@@ -276,25 +277,47 @@ w100{
 
 /*--- new menu section test ---*/
 
-.mst-pop{
-    display: inline-block;
-    background: red;
-    border-radius: 100px;
+
+.image-cropper{
+    width: 123px;
     height: 123px;
-    left: 150px;
-    width: 128px;
-    margin-right:76px;
-    margin-bottom: 20px;
-    top: 100px;
-    transition: width 200ms, height 400ms, border-radius 200ms,left 200ms, top 200ms;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 49px;
+    margin-top: 30px;
+    margin-left: 59px;
 }
 
-.mst-pop:hover{
+.image-cropper:hover{
     border-radius: 100px;
     height: 200px;
     left: 100px;
     width: 200px;
-}   
+    margin-right: 67px;
+    position: relative;
+    left: -30px;
+
+}
+
+.image-cropper h2{
+    color: black;
+    padding: 5px;
+}
+
+.zom{
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    position: absolute;
+}
+
+.zom:hover{
+    height: 200px;
+    object-fit: cover;
+}
+
 
 
 
