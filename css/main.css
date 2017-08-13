@@ -23,6 +23,12 @@ w100{
     /*background: url("../images/main2.jpg");*/
 }
 
+.gyros{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
 .main-background{
     width:100%;
     object-fit: cover;
@@ -33,7 +39,7 @@ w100{
 
 .mn-link .sc-body{
     display: block;
-    padding-top: 42px;
+    padding-top: 37px;
     margin: 0;
     padding-bottom: 42px;
     text-align: center;
@@ -109,6 +115,8 @@ w100{
 .menu{
     display: block;
     max-width: 1524px;
+    overflow: hidden;
+    border-bottom: 3px solid #f4805a;
 
 }
 
@@ -201,13 +209,32 @@ w100{
 
 .b-main{
     display: block;
-    max-width: 1000px;
     width: 100%;
-    background: yellow;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.pdf{
+    display: block;
+    width: 300px;
+    font-size: 30px;
+    font-family: 'Open Sans',sans-serif;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2.2px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: #ff8346;
+    border-radius: 48px 48px;
 }
 
 /* attempt 2 in making a slide with js---*/
-
+/*
 #slides {
     position: relative;
     height: 300px;
@@ -270,7 +297,7 @@ w100{
     opacity: 1;
     z-index: 2;
 }
-
+*/
 /*--- new menu section test ---*/
 
 
@@ -308,6 +335,10 @@ w100{
     vertical-align: top;
 }
 
+#rg{
+    background-position-x: 30px;
+}
+
 .description .m-head{
     text-align: center;
 }
@@ -337,9 +368,152 @@ w100{
     margin: 0 auto;
     width: 34%;
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 38px;
     letter-spacing: 3.2px;
+    font-weight: 700;
 }
+
+/*--- Reviews---*/
+
+.reviews {
+    display: block;
+    width: 100%;
+    border-bottom: 3px solid #f4805a;
+    height: 554px;
+    background: #ffc5b4;
+}
+
+.reviews .title{
+    margin: 0 auto;
+    display: block;
+}
+
+
+.reviews .inside{
+    position:  relative;
+    padding: 100px 300px;
+}
+
+
+#slides{
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+    font-size: 40px;
+    padding: 132px 30px;
+    font-family: 'Open Sans',sans-serif;
+    color: black;
+    
+}
+
+
+.slide::nth-of-type(1){
+    background: red;
+}
+
+
+.slide::nth-of-type(2){
+    background: orange;
+}
+
+.slide::nth-of-type(3){
+    background: green;
+}
+
+
+.slide::nth-of-type(4){
+    background: blue;
+}
+
+.slide::nth-of-type(5){
+    background: purple;
+}
+
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+.contact{
+    display: block;
+    width: 100%;
+}
+
+.contact .inside{
+    display: block;
+    width: 1380px;
+    margin: 0 auto;
+    padding-top: 59px;
+}
+
+.left-info{
+    display: inline-block;
+    width: 450px;
+    margin-left: 40px;
+    margin-right: 50px;
+    padding-top: 100px;
+
+}
+
+.left-info h2{
+    display: block;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;s
+}
+
+
+.find-us{
+    display: inline-block;
+    width: 800px;
+
+}
+
+.find-us img{
+    display: inline-block;
+    width: 110px;
+    height: 113px;
+    object-fit: cover;
+    margin-right: 77px;
+    margin-top: 30px;
+}
+
+.find-us h2{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+
+
+
+
 
 
 
