@@ -381,7 +381,7 @@ w100{
     width: 100%;
     border-bottom: 3px solid #f4805a;
     height: 554px;
-    background: #ffc5b4;
+    background: rgb(238, 192, 196);
 }
 
 .reviews .title{
